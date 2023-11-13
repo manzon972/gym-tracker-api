@@ -1,0 +1,16 @@
+{
+  "name": "gym-tracker-api",
+  "version": "1.0.0",
+  "description": "API for the gym tracker website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Santiago M",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  }
+}

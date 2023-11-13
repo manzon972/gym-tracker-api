@@ -1,0 +1,178 @@
+{
+  "days": [
+    {
+      "id": "chest-biceps",
+      "dayName": "Chest & Biceps",
+      "exercises": [
+        {
+          "id": "incline-press",
+          "exerciseName": "Incline Press",
+          "sets": [
+            {
+              "done": true,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": true,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            }
+          ],
+          "maxWeight": 120
+        },
+        {
+          "id": "bench-press",
+          "exerciseName": "Bench Press",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            }
+          ],
+          "maxWeight": 120
+        },
+        {
+          "id": "fly-machine",
+          "exerciseName": "Fly Machine",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            }
+          ],
+          "maxWeight": 80
+        }
+      ]
+    },
+    {
+      "id": "back-triceps",
+      "dayName": "Back & Triceps",
+      "exercises": [
+        {
+          "id": "lat-pulldowns",
+          "exerciseName": "Lat Pulldowns",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            }
+          ],
+          "maxWeight": 180
+        },
+        {
+          "id": "cable-row",
+          "exerciseName": "Cable Row",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            }
+          ],
+          "maxWeight": 100
+        },
+        {
+          "id": "pull-ups",
+          "exerciseName": "Pull ups",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 90
+            }
+          ],
+          "maxWeight": 0
+        }
+      ]
+    }
+  ]
+}
