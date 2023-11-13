@@ -4,6 +4,7 @@ const app = express();
 const fs = require('fs');
 
 const PORT = process.env.PORT || 3000;
+app.use(express.json());
 app.use(cors());
 
 app.get('/get-routine', (req, res) => {
