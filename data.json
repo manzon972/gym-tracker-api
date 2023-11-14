@@ -9,7 +9,7 @@
           "exerciseName": "Incline Press",
           "sets": [
             {
-              "done": false,
+              "done": true,
               "reps": 10,
               "weight": 90
             },

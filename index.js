@@ -12,17 +12,16 @@ app.get('/get-routine', (req, res) => {
     res.status(200).json({success: true, routine: jsonData});
 });
 
-app.put('/update-exercise-set', (req, res) => {
+app.put('/complete-exercise-set', (req, res) => {
     try {
-        const {dayId, exerciseId, setIndex, setDoneState} = req.body;
+        const {dayId, exerciseId, setIndex} = req.body;
         const jsonData = require('./data.json'); // Assuming your JSON file is named data.json
         const day = jsonData.days.find(d => d.id === dayId)
         const exercise = day.exercises.find(e => e.id === exerciseId);
         const set = exercise.sets[setIndex]
-        set.done = setDoneState;
+        set.done = true;
         // Write the updated JSON back to the file
         fs.writeFileSync('./data.json', JSON.stringify(jsonData, null, 2));
-
         res.status(200).json({success: true, message: 'JSON updated successfully'});
     } catch (error) {
         console.error(error);

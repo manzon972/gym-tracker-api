@@ -131,3 +131,4 @@ dist
 /package-lock.json
 /.idea/workspace.xml
 /.idea/jsLibraryMappings.xml
+/.idea/vcs.xml
