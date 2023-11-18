@@ -19,10 +19,28 @@ app.put('/complete-exercise-set', (req, res) => {
         const day = jsonData.days.find(d => d.id === dayId)
         const exercise = day.exercises.find(e => e.id === exerciseId);
         const setRef = exercise.sets[setIndex]
+        if (set.weight > exercise.maxWeight) {
+            exercise.maxWeight = set.weight;
+        }
         setRef.weight = set.weight;
         setRef.reps = set.reps;
         setRef.done = true;
-        // Write the updated JSON back to the file
+        fs.writeFileSync('./data.json', JSON.stringify(jsonData, null, 2));
+        res.status(200).json({success: true, message: 'JSON updated successfully'});
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({success: false, message: 'Internal server error'});
+    }
+});
+app.put('/reset-exercise-sets', (req, res) => {
+    try {
+        const {dayId, exerciseId} = req.body;
+        const jsonData = require('./data.json'); // Assuming your JSON file is named data.json
+        const day = jsonData.days.find(d => d.id === dayId)
+        const exercise = day.exercises.find(e => e.id === exerciseId);
+        exercise.sets.forEach(set => {
+            set.done = false;
+        })
         fs.writeFileSync('./data.json', JSON.stringify(jsonData, null, 2));
         res.status(200).json({success: true, message: 'JSON updated successfully'});
     } catch (error) {

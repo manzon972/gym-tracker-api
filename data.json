@@ -5,11 +5,92 @@
       "dayName": "Chest & Biceps",
       "exercises": [
         {
+          "id": "bicep-pull-ups",
+          "exerciseName": "Bicep Pull Ups",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 0
+            }
+          ],
+          "maxWeight": 0
+        },
+        {
+          "id": "preacher-curls",
+          "exerciseName": "Preacher Curls",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 60
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 60
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 60
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 60
+            }
+          ],
+          "maxWeight": 60
+        },
+        {
+          "id": "rope-hammer-curls",
+          "exerciseName": "Rope Hammer Curls",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            }
+          ],
+          "maxWeight": 100
+        },
+        {
           "id": "incline-press",
           "exerciseName": "Incline Press",
           "sets": [
             {
-              "done": true,
+              "done": false,
               "reps": 10,
               "weight": 90
             },
@@ -33,7 +114,7 @@
         },
         {
           "id": "bench-press",
-          "exerciseName": "Bench Press",
+          "exerciseName": "Bench Press (Dumbbells)",
           "sets": [
             {
               "done": false,
@@ -56,7 +137,7 @@
               "weight": 90
             }
           ],
-          "maxWeight": 120
+          "maxWeight": 90
         },
         {
           "id": "fly-machine",
@@ -65,25 +146,220 @@
             {
               "done": false,
               "reps": 10,
-              "weight": 90
+              "weight": 50
             },
             {
               "done": false,
               "reps": 10,
-              "weight": 90
+              "weight": 50
             },
             {
               "done": false,
               "reps": 10,
-              "weight": 90
+              "weight": 50
             },
             {
               "done": false,
               "reps": 10,
-              "weight": 90
+              "weight": 50
             }
           ],
-          "maxWeight": 80
+          "maxWeight": 50
+        },
+        {
+          "id": "push-ups",
+          "exerciseName": "Body-weight Push Ups",
+          "sets": [
+            {
+              "done": false,
+              "reps": 15,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 15,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 15,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 15,
+              "weight": 0
+            }
+          ],
+          "maxWeight": 0
+        }
+      ]
+    },
+    {
+      "id": "legs-abs",
+      "dayName": "Legs & Abs",
+      "exercises": [
+        {
+          "id": "bulgarian-split-squad",
+          "exerciseName": "Bulgarian Split Squad",
+          "sets": [
+            {
+              "done": false,
+              "reps": 12,
+              "weight": 25
+            },
+            {
+              "done": false,
+              "reps": 12,
+              "weight": 25
+            },
+            {
+              "done": false,
+              "reps": 12,
+              "weight": 25
+            },
+            {
+              "done": false,
+              "reps": 12,
+              "weight": 25
+            }
+          ],
+          "maxWeight": 0
+        },
+        {
+          "id": "leg-extension",
+          "exerciseName": "Leg Extension",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 160
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 160
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 160
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 160
+            }
+          ],
+          "maxWeight": 160
+        },
+        {
+          "id": "leg-curls",
+          "exerciseName": "Leg Curls",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            }
+          ],
+          "maxWeight": 100
+        },
+        {
+          "id": "leg-press",
+          "exerciseName": "Leg Press",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 180
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 180
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 180
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 180
+            }
+          ],
+          "maxWeight": 180
+        },
+        {
+          "id": "leg-raises",
+          "exerciseName": "Leg Raises",
+          "sets": [
+            {
+              "done": false,
+              "reps": 25,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 25,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 25,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 25,
+              "weight": 0
+            }
+          ],
+          "maxWeight": 0
+        },
+        {
+          "id": "crunches",
+          "exerciseName": "Crunches",
+          "sets": [
+            {
+              "done": false,
+              "reps": 25,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 25,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 25,
+              "weight": 0
+            },
+            {
+              "done": false,
+              "reps": 25,
+              "weight": 0
+            }
+          ],
+          "maxWeight": 0
         }
       ]
     },
@@ -91,6 +367,87 @@
       "id": "back-triceps",
       "dayName": "Back & Triceps",
       "exercises": [
+        {
+          "id": "triceps-extension",
+          "exerciseName": "Triceps Extension",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 100
+            }
+          ],
+          "maxWeight": 100
+        },
+        {
+          "id": "triceps-extension-single-arm",
+          "exerciseName": "Triceps Extension (Single Arm)",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 30
+            }
+          ],
+          "maxWeight": 30
+        },
+        {
+          "id": "overhead-triceps-extension-single-arm",
+          "exerciseName": "Overhead Triceps Extension (Single Arm)",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 15
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 15
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 15
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 15
+            }
+          ],
+          "maxWeight": 15
+        },
         {
           "id": "lat-pulldowns",
           "exerciseName": "Lat Pulldowns",
@@ -171,6 +528,174 @@
             }
           ],
           "maxWeight": 0
+        }
+      ]
+    },
+    {
+      "id": "shoulder-forearms",
+      "dayName": "Shoulder & Forearms",
+      "exercises": [
+        {
+          "id": "shoulder-press",
+          "exerciseName": "Shoulder Press",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 45
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 45
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 45
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 45
+            }
+          ],
+          "maxWeight": 45
+        },
+        {
+          "id": "cable-lateral-raises",
+          "exerciseName": "Cable Lateral raises",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 20
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 20
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 20
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 20
+            }
+          ],
+          "maxWeight": 20
+        },
+        {
+          "id": "cable-front-raise",
+          "exerciseName": "Cable Front Raise",
+          "sets": [
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 10,
+              "weight": 30
+            }
+          ],
+          "maxWeight": 30
+        },
+        {
+          "id": "single-arm-reverse-fly",
+          "exerciseName": "Reverse Fly (Single Arm)",
+          "sets": [
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 30
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 30
+            }
+          ],
+          "maxWeight": 30
+        },
+        {
+          "id": "reverse-wrist-curl",
+          "exerciseName": "Reverse Wrist Curl",
+          "sets": [
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 10
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 10
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 10
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 10
+            }
+          ],
+          "maxWeight": 10
+        },
+        {
+          "id": "wrist-curl",
+          "exerciseName": "Wrist Curl",
+          "sets": [
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 20
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 20
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 20
+            },
+            {
+              "done": false,
+              "reps": 20,
+              "weight": 20
+            }
+          ],
+          "maxWeight": 20
         }
       ]
     }
